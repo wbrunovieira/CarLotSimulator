@@ -31,20 +31,20 @@ namespace CarLotSimulator
             bmw.HonkNoise = "Beep boop";
             bmw.IsDriveable = true;
 
-            bmw.MakeEngineNoise(bmw.EngineNoise);
-            bmw.MakeHonkNoise(bmw.HonkNoise);
+            bmw.MakeEngineNoise();
+            bmw.MakeHonkNoise();
 
             //Object initializer syntax
             Car celica = new Car() { Year = 2000, Make = "Toyota", Model = "Celica", EngineNoise = "Nothing", HonkNoise = "Help"};
 
-            celica.MakeEngineNoise(celica.EngineNoise);
-            celica.MakeHonkNoise(celica.HonkNoise);
+            celica.MakeEngineNoise();
+            celica.MakeHonkNoise();
 
             //Constructor initialization
             Car someOtherCar = new Car(3000,"Mars Inc.","Alpha ++","Space Noises","Does a space ship Honk?");
 
-            someOtherCar.MakeEngineNoise(someOtherCar.EngineNoise);
-            someOtherCar.MakeHonkNoise(someOtherCar.HonkNoise);
+            someOtherCar.MakeEngineNoise();
+            someOtherCar.MakeHonkNoise();
 
             //*************BONUS X 2*************//
 
