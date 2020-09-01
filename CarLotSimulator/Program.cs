@@ -73,6 +73,8 @@ namespace CarLotSimulator
             {
                 Console.WriteLine($" Year: {car.Year} Make: {car.Make} Model: {car.Model} ");
             }
+
+            
         }
     }
 }
